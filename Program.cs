@@ -25,14 +25,10 @@ namespace exercicioClasses2
       int.TryParse(Console.ReadLine(), out pessoa2.Idade);
 
       if (pessoa1.Idade > pessoa2.Idade)
-      {
 
         Console.WriteLine("A pessoa mais velha é " + pessoa1.Nome);
-      }
-      else if (pessoa2.Idade > pessoa1.Idade)
-      {
+      else
         Console.WriteLine("A pessoa mais velha é " + pessoa2.Nome);
-      }
     }
   }
 }
